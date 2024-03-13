@@ -1,0 +1,122 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4rem;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4rem;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    max-height: fit-content;
+    padding: 10px;
+}
+nav{
+    background-color: #1e1e1e;
+    padding: 2px;
+    border-radius: 15px;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    padding: 3px;
+}
+nav li a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px;
+    font-weight: bold;
+}
+nav li a:hover{
+    color: rgb(111, 188, 255);
+}
+#home{
+    background-image:url('assets/jewelrybanner.png');
+    background-size: cover; 
+    background-position: center center;
+    padding: 20px;
+}
+#promotional{
+    font-size: 2em;
+    color: aliceblue;
+    transition: transform 0.3s ease-in-out;
+}
+#home p{
+    color: #fff;
+    background-color: #1e1e1e;
+}
+
+#promotional:hover {
+    transform: scale(1.1); 
+    color: #ff4500; 
+}
+section {
+    display: flex;
+    justify-content: center;
+    
+}
+article img{
+    height: 300px;
+}
+article {
+    padding: 10px;
+    margin:20px;
+    width: 50%;
+    border-radius: 20px;
+}
+#ambasador{
+    background-color: rgb(111, 188, 255);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+#location{
+    background-color: rgb(111, 188, 255);
+    border-radius: 15px;
+    padding-left: 20px;
+    box-sizing: border-box; 
+}
+#contact{
+    background-color: rgb(111, 188, 255);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box; 
+
+}
+footer{
+    display: flex;
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    
+}
+footer div{
+    flex: 1;
+}
+footer p{
+    color: #ffff;
+    text-decoration: overline;
+
+}
+footer img{
+    max-width: 200px;
+    max-height: fit-content;
+}
+
+
